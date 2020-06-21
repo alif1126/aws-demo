@@ -5,13 +5,13 @@ phases:
       java: openjdk8
   pre_build:
     commands:
-    - echo "Pre_build"
+      - echo "Pre_build"
   build:
     commands:
-    - echo "Build"
-    - mvn clean install
+      - echo "Build"
+      - mvn clean install
   post_build:
     commands:
-    - echo "Post_build"
+      - echo "Post_build"
 artifacts:
   files: target/demo-0.0.1-SNAPSHOT.jar
